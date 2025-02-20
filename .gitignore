@@ -23,3 +23,35 @@ go.work.sum
 
 # env file
 .env
+
+# Binaries and executables
+kube-watcher
+*.exe
+*.out
+*.o
+
+# Go build cache and dependencies
+/bin/
+/pkg/
+/vendor/
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Go test caches
+cover.out
+
+# Environment variables and configuration files
+.env
+config.yaml
+secrets.json
+
+# Kubernetes related files (optional)
+*.kubeconfig
+*.crt
+*.key
+*.pem
+
